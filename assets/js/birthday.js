@@ -1,16 +1,12 @@
 function BirJapanese() {
-    const BirJpn = "3月22日"
-    document.getElementById("birstr").innerHTML = BirJpn;
+    document.getElementById("birstr").innerHTML = "3月22日";
 }
 function BirEnglish() {
-    const BirEng = "March 22"
-    document.getElementById("birstr").innerHTML = BirEng;
+    document.getElementById("birstr").innerHTML = "March 22";
 }
 function BirChinese() {
-    const BirChi = "3月22日"
-    document.getElementById("birstr").innerHTML = BirChi;
+    document.getElementById("birstr").innerHTML = "3月22日";
 }
 function BirKorean() {
-    const BirKor = "3월 22일"
-    document.getElementById("birstr").innerHTML = BirKor;
+    document.getElementById("birstr").innerHTML = "3월 22일";
 }
