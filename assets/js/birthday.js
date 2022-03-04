@@ -1,17 +1,17 @@
-const birHTML = "birstr";
+const birHTML = document.getElementById(birHTML).innerHTML;
 
 function BirJapanese() {
-    document.getElementById(birHTML).innerHTML = "3月22日";
+    birHTML = "3月22日";
 }
 
 function BirEnglish() {
-    document.getElementById(birHTML).innerHTML = "March 22";
+    birHTML = "March 22";
 }
 
 function BirChinese() {
-    document.getElementById(birHTML).innerHTML = "3月22日";
+    birHTML = "3月22日";
 }
 
 function BirKorean() {
-    document.getElementById(birHTML).innerHTML = "3월 22일";
+    birHTML = "3월 22일";
 }
