@@ -1,3 +1,5 @@
+const birHTML = "birstr";
+
 function BirJapanese() {
     document.getElementById(birHTML).innerHTML = "3月22日";
 }
