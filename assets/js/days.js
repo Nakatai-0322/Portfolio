@@ -3,6 +3,10 @@ window.onload = function(){
     let to = new Date();
     let ms = to.getTime() - from.getTime();
     let days = Math.floor(ms / (1000*60*60*24));
+    let _years = (days / 365);
+    let years = _years.toFixed(1);
 
-    window.onload = document.getElementById("days").innerHTML = days;
+    document.getElementById("days").innerHTML = days;
+    document.getElementById("years").innerHTML = years;
+
 }
