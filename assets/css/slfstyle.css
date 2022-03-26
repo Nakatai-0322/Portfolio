@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+svg.wakatime {
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+    font-size: 1.2857142857em;
+    line-height: .8em;
+    width: 1.2857142857em;
+    height: .8em;
+    margin-top: -.2em !important;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+#hero .social-links a:hover {
+    color: #0563bb;
+}
