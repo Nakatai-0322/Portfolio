@@ -1,9 +1,9 @@
-let from
-let to
-let ms
-let days
-let _years
-let years
+let from;
+let to;
+let ms;
+let days;
+let _years;
+let years;
 
 window.onload = function(){
     from = new Date("2019/01/03");
@@ -15,5 +15,4 @@ window.onload = function(){
 
     document.getElementById("days").innerHTML = days;
     document.getElementById("years").innerHTML = years;
-
 }
