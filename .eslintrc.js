@@ -18,6 +18,7 @@ module.exports = {
         semi: "off",
         indent: "off",
         "space-before-function-paren": "off",
-        "no-unused-vars": "off"
+        "no-unused-vars": "off",
+        "import/no-absolute-path": "off"
     }
 }
