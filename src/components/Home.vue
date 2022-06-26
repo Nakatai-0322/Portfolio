@@ -1,57 +1,86 @@
 <template>
-    <div class="center">
-        <h1 style="font-size: 60px;">Nakatai</h1>
-        <IconComp />
+    <div class="wrapper">
+        <div class="container">
+            <div class="btn" id="aboutlink">
+                <img src="https://cdn.nakatai.ga/img/nakatai.svg" alt="Nakatai" class="B">
+                <img src="https://cdn.nakatai.ga/img/nakataimc.webp" alt="MC Nakatai" class="A">
+            </div>
+            <a href="https://go.nakatai.ga/twitter" target="_blank" rel="noopener noreferrer">
+            </a>
+        </div>
     </div>
 </template>
 
 <script>
-import IconComp from "./Icon.vue"
-
 export default {
     name: 'HomeComp',
-    components: {
-        IconComp
+    components: {},
+    mounted: function () {
+        window.addEventListener('click', function () {
+            this.window.location.href = "/about"
+        })
     }
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-#app {
-    padding: 20px;
-    /* 余白指定 */
-    background-color: #ddd;
-    /* 背景色指定 */
-    height: 300px;
-    /* 高さ指定 */
-    width: 640px;
-    /* 幅指定 */
-    position: relative;
-    /* 位置指定の基準点にする */
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.center {
-    background-color: #2196F3;
-    /* 背景色指定 */
+.container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn img {
     position: absolute;
-    /* 位置指定 */
-    padding: 20px;
-    /* 余白指定 */
-    top: 0;
-    /* 位置指定 */
-    bottom: 0;
-    /* 位置指定 */
-    left: 0;
-    /* 位置指定 */
-    right: 0;
-    /* 位置指定 */
-    margin: auto;
-    /* 中央寄せ */
-    width: 150px;
-    /* 幅指定 */
-    height: 80px;
-    /* 高さ指定 */
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: block;
+    -webkit-transition: .4s ease-in-out;
+    transition: .4s ease-in-out;
+}
+
+.btn:hover img:nth-of-type(2) {
+    -webkit-transform: translate(-50%, -50%) scale(.8) !important;
+    transform: translate(-50%, -50%) scale(.8) !important;
+    opacity: 0;
+}
+
+.icon {
+    position: relative;
+}
+
+.links {
+    color: white;
+    font-size: 150%;
+    margin-top: 5px;
+}
+
+.links a {
+    margin: 0% 10px;
 }
 
 h3 {
