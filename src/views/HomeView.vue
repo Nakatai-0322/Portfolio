@@ -1,11 +1,10 @@
 <template>
     <div class="home">
-        <HomeComp msg="Welcome to Your Vue.js App" />
+        <HomeComp/>
     </div>
 </template>
 
 <script>
-// @ is an alias to /src
 import HomeComp from '@/components/Home.vue'
 
 export default {
