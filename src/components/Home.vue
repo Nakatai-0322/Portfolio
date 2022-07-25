@@ -17,10 +17,10 @@ export default {
     components: {},
     mounted: function () {
         window.addEventListener('click', function () {
-            this.window.location.href = "/about"
-        })
-    }
-}
+            this.window.location.href = "/about";
+        });
+    },
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
