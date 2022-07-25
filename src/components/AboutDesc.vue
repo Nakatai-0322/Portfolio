@@ -4,9 +4,10 @@
     <br>
     岐阜県出身で、現在居住しています。
     <br>
-    発音＆イントネーション（音声: 「VOICEVOX:玄野武宏」）: <audio controls src="https://cdn.nakatai.ga/audio/howtosaynkt.wav"></audio>
+    発音＆イントネーション（音声: 「VOICEVOX:玄野武宏」）
+    <br><audio controls src="https://cdn.nakatai.ga/audio/howtosaynkt.wav"></audio>
     <br>
-    年齢は非公開、誕生日は3月22日とされている。
+    年齢は非公開、誕生日は3月22日です。
     <h2>
         自己PR
     </h2>
