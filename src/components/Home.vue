@@ -1,22 +1,32 @@
 <template>
     <div class="wrapper">
         <div class="container">
+            <span class="nkttxt">Nakatai</span>
             <div class="btn" id="aboutlink">
-                <img src="https://cdn.nakatai.ga/img/nakatai.svg" alt="Nakatai" class="B">
+                <img src="https://cdn.nakatai.ga/img/nakatai.webp" alt="Nakatai" class="B">
                 <img src="https://cdn.nakatai.ga/img/nakataimc.webp" alt="MC Nakatai" class="A">
             </div>
-            <a href="https://go.nakatai.ga/twitter" target="_blank" rel="noopener noreferrer">
-            </a>
+            <Typed :options="options">
+                <h1 class="typing"></h1>
+            </Typed>
         </div>
     </div>
 </template>
 
 <script>
+import { Typed } from "@duskmoon/vue3-typed-js";
+
+const TypedOptions = {
+    strings: ["Hello", "World", "This is vue3-typed-js"],
+    loop: true,
+    typeSpeed: 30,
+};
+
 export default {
     name: 'HomeComp',
     components: {},
     mounted: function () {
-        window.addEventListener('click', function () {
+        window.addEventListener("click", function () {
             this.window.location.href = "/about";
         });
     },
@@ -38,6 +48,11 @@ export default {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.nkttxt {
+    font-family: "Montserrat Black";
+    font-size: 50px;
 }
 
 .btn {
