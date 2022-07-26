@@ -6,25 +6,25 @@
                 <img src="https://cdn.nakatai.ga/img/nakatai.webp" alt="Nakatai" class="B">
                 <img src="https://cdn.nakatai.ga/img/nakataimc.webp" alt="MC Nakatai" class="A">
             </div>
-            <Typed :options="options">
-                <h1 class="typing"></h1>
-            </Typed>
+            I am <span class="typed" data-typed-items="Wiki Editor, Web Developer, Minecrafter"></span>.
         </div>
     </div>
 </template>
 
 <script>
-import { Typed } from "@duskmoon/vue3-typed-js";
-
-const TypedOptions = {
-    strings: ["Hello", "World", "This is vue3-typed-js"],
+const options = {
+    strings: ["Wiki Editor", "Web Developer", "Minecrafter"],
     loop: true,
-    typeSpeed: 30,
+    typeSpeed: 100,
 };
+
+var typed = new Typed('.typed', options);
 
 export default {
     name: 'HomeComp',
-    components: {},
+    components: {
+        Typed
+    },
     mounted: function () {
         window.addEventListener("click", function () {
             this.window.location.href = "/about";

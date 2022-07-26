@@ -11,8 +11,7 @@
     "dependencies": {
         "@duskmoon/vue3-typed-js": "^0.0.2",
         "vue": "^3.2.37",
-        "vue-router": "^4",
-        "vue-typed-js": "^0.1.2"
+        "vue-router": "^4"
     },
     "devDependencies": {
         "@vitejs/plugin-vue": "^2.3.3",

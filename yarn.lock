@@ -413,10 +413,6 @@ typed.js@^2.0.12:
   resolved "https://registry.yarnpkg.com/typed.js/-/typed.js-2.0.12.tgz#246aff074c8e18d32ec27acb7be15094ac0bc0e1"
   integrity sha512-lyACZh1cu+vpfYY3DG/bvsGLXXbdoDDpWxmqta10IQUdMXisMXOEyl+jos+YT9uBbzK4QaKYBjT3R0kTJO0Slw==
 
-"typed.js@git+https://github.com/mattboldt/typed.js.git":
-  version "2.0.12"
-  resolved "git+https://github.com/mattboldt/typed.js.git#37873a11ffadc43af412b67eea332d2a531dad15"
-
 vite@^2.9.14:
   version "2.9.14"
   resolved "https://registry.yarnpkg.com/vite/-/vite-2.9.14.tgz#c438324c6594afd1050df3777da981dee988bb1b"
@@ -435,13 +431,6 @@ vue-router@^4:
   integrity sha512-5BP1qXFncVRwgV/XnqzsKApdMjQPqWIpoUBdL1ynz8HyLxIX/UDAx7Ql2BjmA5CXT/p61JfZvkpiFWFpaqcfag==
   dependencies:
     "@vue/devtools-api" "^6.1.4"
-
-vue-typed-js@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/vue-typed-js/-/vue-typed-js-0.1.2.tgz#afc38972675314c37df6de91daf870f6860024ca"
-  integrity sha512-9kDGuz17uYJghe/1hepRWiWYssgUFtrKnMGPHlWjVRxdvs/d9xYYWMkgzztjhx1R1B33hXkN8ctmkzCYHQ+caA==
-  dependencies:
-    typed.js "git+https://github.com/mattboldt/typed.js.git"
 
 vue@3.1.4:
   version "3.1.4"
