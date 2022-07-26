@@ -8,7 +8,7 @@
 
 body {
     background-color: #005498
-};
+}
 
 #app {
     font-family: "Noto Sans JP", "Montserrat", "Avenir", Helvetica, Arial, sans-serif
@@ -16,18 +16,18 @@ body {
     -moz-osx-font-smoothing: grayscale
     text-align: center
     color: #fff
-};
+}
 
 nav {
     padding: 30px
-};
+}
 
 nav a {
     font-weight: bold
     color: #2c3e50
-};
+}
 
 router-link-exact-active {
     color: #42b983
-};
+}
 </style>
