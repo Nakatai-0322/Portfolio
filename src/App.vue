@@ -7,27 +7,25 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
 
 body {
-    background-color: #005498
+    background-color: #005498;
 }
 
 #app {
-    font-family: "Noto Sans JP", "Montserrat", "Avenir", Helvetica, Arial, sans-serif
-    -webkit-font-smoothing: antialiased
-    -moz-osx-font-smoothing: grayscale
-    text-align: center
-    color: #fff
+    font-family: "Noto Sans JP", Montserrat, Avenir, Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: #fff;
 }
 
 nav {
-    padding: 30px
+    padding: 30px;
 }
 
 nav a {
-    font-weight: bold
-    color: #2c3e50
+    font-weight: bold;
+    color: #2c3e50;
 }
 
-router-link-exact-active {
-    color: #42b983
+nav a router-link-exact-active {
+    color: #42b983;
 }
 </style>
