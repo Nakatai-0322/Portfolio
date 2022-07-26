@@ -6,7 +6,7 @@
                 <img src="https://cdn.nakatai.ga/img/nakatai.webp" alt="Nakatai" class="B">
                 <img src="https://cdn.nakatai.ga/img/nakataimc.webp" alt="MC Nakatai" class="A">
             </div>
-            I am <span class="typed" data-typed-items="Wiki Editor, Web Developer, Minecrafter"></span>.
+            I am <span class="typed"></span>.
         </div>
     </div>
 </template>
@@ -22,9 +22,7 @@ var typed = new Typed('.typed', options);
 
 export default {
     name: 'HomeComp',
-    components: {
-        Typed
-    },
+    components: {},
     mounted: function () {
         window.addEventListener("click", function () {
             this.window.location.href = "/about";
