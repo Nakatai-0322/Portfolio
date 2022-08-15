@@ -2,13 +2,13 @@
 	<div class="wrapper">
 		<div class="container">
 			<span class="nkttxt">Nakatai</span>
+			<div class="typed-div">
+				I am <span class="typed"></span>.
+			</div>
 			<div class="btn" id="aboutlink">
 				<img src="https://cdn.nakatai.ga/img/nakatai.webp" alt="Nakatai" class="B">
 				<img src="https://cdn.nakatai.ga/img/nakataimc.webp" alt="MC Nakatai" class="A">
 			</div><br>
-            <div class="typed-div">
-				I am <span class="typed"></span>.
-            </div>
 		</div>
 	</div>
 </template>
@@ -22,11 +22,11 @@ export default {
 		abouttarget.addEventListener("click", function () {
 			window.location.href = "/about";
 		});
-        var typed = new Typed('span.typed', {
-            strings: ["Wiki Editor", "Web Developer", "Minecrafter"],
-            loop: true,
-            typeSpeed: 100,
-        });
+		var typed = new Typed('span.typed', {
+			strings: ["Wiki Editor", "Web Developer", "Minecrafter"],
+			loop: true,
+			typeSpeed: 100,
+		});
 	},
 };
 </script>
@@ -34,7 +34,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .typed-div {
-    display: inline-block;
+	display: inline-block;
+	font-size: 30pt;
 }
 
 .wrapper {
