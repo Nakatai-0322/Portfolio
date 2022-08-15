@@ -12,7 +12,7 @@ body {
 }
 
 #app {
-	font-family: "M PLUS 1p", Montserrat, Avenir, Helvetica, Arial, sans-serif;
+	font-family: Montserrat, "M PLUS 1p", Avenir, Helvetica, Arial, sans-serif;
     font-weight: 500;
 	-webkit-font-smoothing: auto;
 	-moz-osx-font-smoothing: auto;
