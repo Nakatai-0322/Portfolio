@@ -6,7 +6,9 @@
 				<img src="https://cdn.nakatai.ga/img/nakatai.webp" alt="Nakatai" class="B">
 				<img src="https://cdn.nakatai.ga/img/nakataimc.webp" alt="MC Nakatai" class="A">
 			</div><br>
-			I am <span class="typed"></span>.
+            <div class="typed-div">
+				I am <span class="typed"></span>.
+            </div>
 		</div>
 	</div>
 </template>
@@ -31,6 +33,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.typed-div {
+    display: inline-block;
+}
+
 .wrapper {
 	width: 100%;
 	height: 100vh;
