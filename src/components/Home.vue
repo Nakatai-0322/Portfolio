@@ -12,13 +12,6 @@
 </template>
 
 <script>
-var typed = new Typed('.typed', {
-    strings: ["Wiki Editor", "Web Developer", "Minecrafter"],
-    loop: true,
-    typeSpeed: 100,
-});
-
-var typed = new Typed('.typed', options);
 
 export default {
 	name: 'HomeComp',
@@ -28,6 +21,11 @@ export default {
 		abouttarget.addEventListener("click", function () {
 			window.location.href = "/about";
 		});
+        var typed = new Typed('span.typed', {
+        strings: ["Wiki Editor", "Web Developer", "Minecrafter"],
+        loop: true,
+        typeSpeed: 100,
+        });
 	},
 };
 </script>
