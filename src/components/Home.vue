@@ -12,7 +12,6 @@
 </template>
 
 <script>
-
 export default {
 	name: 'HomeComp',
 	components: {},
@@ -22,9 +21,9 @@ export default {
 			window.location.href = "/about";
 		});
         var typed = new Typed('span.typed', {
-        strings: ["Wiki Editor", "Web Developer", "Minecrafter"],
-        loop: true,
-        typeSpeed: 100,
+            strings: ["Wiki Editor", "Web Developer", "Minecrafter"],
+            loop: true,
+            typeSpeed: 100,
         });
 	},
 };
