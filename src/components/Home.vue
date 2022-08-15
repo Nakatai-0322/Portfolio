@@ -18,7 +18,7 @@ export default {
 	name: 'HomeComp',
 	components: {},
 	mounted: function () {
-		const abouttarget = document.getElementById("aboutlink")
+		const abouttarget = document.getElementById("aboutlink");
 		abouttarget.addEventListener("click", function () {
 			window.location.href = "/about";
 		});
