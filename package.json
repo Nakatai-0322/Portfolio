@@ -1,20 +1,20 @@
 {
-    "name": "portfolio",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-        "dev": "vite preview",
-        "build": "vite build",
-        "preview": "vite preview",
-        "serve": "vite serve"
-    },
-    "dependencies": {
-        "@duskmoon/vue3-typed-js": "^0.0.2",
-        "vue": "^3.2.37",
-        "vue-router": "^4"
-    },
-    "devDependencies": {
-        "@vitejs/plugin-vue": "^2.3.3",
-        "vite": "^2.9.14"
-    }
+	"name": "portfolio",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "vite preview",
+		"build": "vite build",
+		"preview": "vite preview",
+		"serve": "vite serve"
+	},
+	"dependencies": {
+		"@duskmoon/vue3-typed-js": "^0.0.2",
+		"vue": "^3.2.37",
+		"vue-router": "^4"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^2.3.3",
+		"vite": "^2.9.14"
+	}
 }
