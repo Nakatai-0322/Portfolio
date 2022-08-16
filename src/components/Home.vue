@@ -23,7 +23,7 @@ export default {
 			window.location.href = "/about";
 		});
 		var typed = new Typed('span.typed', {
-			strings: ["Wiki Editor", "Web Developer", "Minecrafter"],
+			strings: ["apprentice Web Developer", "Minecrafter"],
 			loop: true,
 			typeSpeed: 100,
 		});
@@ -31,7 +31,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .typed-div {
 	display: inline-block;
