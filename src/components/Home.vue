@@ -15,14 +15,14 @@
 
 <script>
 export default {
-	name: 'HomeComp',
+	name: "HomeComp",
 	components: {},
 	mounted: function () {
 		const abouttarget = document.getElementById("aboutlink");
 		abouttarget.addEventListener("click", function () {
 			window.location.href = "/about";
 		});
-		var typed = new Typed('span.typed', {
+		var typed = new Typed("span.typed", {
 			strings: ["apprentice Web Developer", "Minecrafter"],
 			loop: true,
 			typeSpeed: 100,
