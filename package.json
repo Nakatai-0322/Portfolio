@@ -6,7 +6,8 @@
 		"dev": "vite preview",
 		"build": "vite build",
 		"preview": "vite preview",
-		"serve": "vite serve"
+		"serve": "vite serve",
+		"serveh": "vite serve --host"
 	},
 	"dependencies": {
 		"@duskmoon/vue3-typed-js": "^0.0.2",
