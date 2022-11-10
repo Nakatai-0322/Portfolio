@@ -36,6 +36,10 @@ export default {
 	color: white;
 }
 
+h1 {
+	font-size: 2.5rem;
+}
+
 h2 {
 	font-size: 2rem;
 	font-weight: 700;
