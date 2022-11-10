@@ -4,16 +4,8 @@
 			<span class="nkttxt">Nakatai</span>
 			<div class="typed-div">I'm <span class="typed"></span>.</div>
 			<div class="btn" id="aboutlink">
-				<img
-					src="https://cdn.nakatai.ga/img/nakatai.webp"
-					alt="Nakatai"
-					class="B"
-				/>
-				<img
-					src="https://cdn.nakatai.ga/img/nakataimc.webp"
-					alt="MC Nakatai"
-					class="A"
-				/>
+				<img src="https://cdn.nakatai.ga/img/nakatai.webp" alt="Nakatai" class="B" />
+				<img src="https://cdn.nakatai.ga/img/nakataimc.webp" alt="MC Nakatai" class="A" />
 			</div>
 			<br />
 		</div>
