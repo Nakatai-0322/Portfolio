@@ -3,7 +3,7 @@
 		<div class="container">
 			<span class="nkttxt">Nakatai</span>
 			<div class="typed-div">
-				I am <span class="typed"></span>.
+				I'm <span class="typed"></span>.
 			</div>
 			<div class="btn" id="aboutlink">
 				<img src="https://cdn.nakatai.ga/img/nakatai.webp" alt="Nakatai" class="B">
@@ -23,7 +23,7 @@ export default {
 			window.location.href = "/about";
 		});
 		var typed = new Typed("span.typed", {
-			strings: ["apprentice Web Developer", "Minecrafter"],
+			strings: ["a apprenticing web developer", "a gamer"],
 			loop: true,
 			typeSpeed: 100,
 		});
