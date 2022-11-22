@@ -15,6 +15,7 @@
 		<h2>BASE Data</h2>
 		<p>
 			誕生日: ████-03-22<br>
+			活動日数: <span id="days"></span>日（<span id="years"></span>年）<br>
 			趣味: プログラミング, ゲーム<br>
 		</p>
 		<h2>WORKS</h2>
@@ -27,7 +28,18 @@
 
 <script>
 export default {
-	name: "AboutDesc"
+	name: "AboutDesc",
+	mounted() {
+		let from, to, ms, days, years;
+		from = new Date("2019/01/03");
+		to = new Date();
+		ms = to.getTime() - from.getTime();
+		days = Math.floor(ms / (1000 * 60 * 60 * 24));
+		years = (days / 365).toFixed(1);
+
+		document.getElementById("days").innerHTML = days;
+		document.getElementById("years").innerHTML = years;
+	}
 }
 </script>
 
