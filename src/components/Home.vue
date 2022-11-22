@@ -2,28 +2,27 @@
 	<div class="wrapper">
 		<div class="container">
 			<span class="nkttxt">Nakatai</span>
-			<div class="typed-div">
-				I am <span class="typed"></span>.
-			</div>
+			<div class="typed-div">I'm <span class="typed"></span>.</div>
 			<div class="btn" id="aboutlink">
-				<img src="https://cdn.nakatai.ga/img/nakatai.webp" alt="Nakatai" class="B">
-				<img src="https://cdn.nakatai.ga/img/nakataimc.webp" alt="MC Nakatai" class="A">
-			</div><br>
+				<img src="https://cdn.nakatai.ga/img/nakatai.webp" alt="Nakatai" class="B" />
+				<img src="https://cdn.nakatai.ga/img/nakataimc.webp" alt="MC Nakatai" class="A" />
+			</div>
+			<br />
 		</div>
 	</div>
 </template>
 
 <script>
 export default {
-	name: 'HomeComp',
+	name: "HomeComp",
 	components: {},
 	mounted: function () {
 		const abouttarget = document.getElementById("aboutlink");
 		abouttarget.addEventListener("click", function () {
 			window.location.href = "/about";
 		});
-		var typed = new Typed('span.typed', {
-			strings: ["Wiki Editor", "Web Developer", "Minecrafter"],
+		var typed = new Typed("span.typed", {
+			strings: ["a apprenticing web developer", "a gamer"],
 			loop: true,
 			typeSpeed: 100,
 		});
@@ -31,7 +30,6 @@ export default {
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .typed-div {
 	display: inline-block;
@@ -77,13 +75,13 @@ export default {
 	transform: translate(-50%, -50%);
 	width: 100%;
 	display: block;
-	-webkit-transition: .4s ease-in-out;
-	transition: .4s ease-in-out;
+	-webkit-transition: 0.4s ease-in-out;
+	transition: 0.4s ease-in-out;
 }
 
 .btn:hover img:nth-of-type(2) {
-	-webkit-transform: translate(-50%, -50%) scale(.8) !important;
-	transform: translate(-50%, -50%) scale(.8) !important;
+	-webkit-transform: translate(-50%, -50%) scale(0.8) !important;
+	transform: translate(-50%, -50%) scale(0.8) !important;
 	opacity: 0;
 }
 
