@@ -1,7 +1,7 @@
 import HomeView from "../views/HomeView.vue";
 import AboutView from "../views/AboutView.vue";
 
-export default [
+const routes = [
 	{
 		path: "/",
 		name: "home",
@@ -16,3 +16,5 @@ export default [
 		component: AboutView,
 	},
 ];
+
+export default routes;
