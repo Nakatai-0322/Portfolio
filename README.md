@@ -1,50 +1,42 @@
-# neva-portfolio-template
+# Personal Portfolio 👨🏿‍💻
 
-link to docs [aabidsofi.com/docs/neva-portfolio-vue](aabidsofi.com/docs/neva-portfolio-vue)
+> Check it out [here](https://asaolu.netlify.app)
 
+### Light-House Report ⚡️
 
-live preview at [https://neva-portfolio-vue.netlify.app/](https://neva-portfolio-vue.netlify.app/)
+![Light House Report](https://raw.githubusercontent.com/AsaoluElijah/portfolio/master/light-house-report.png)
 
-##### Neva vue is a minimal and open-source template for portfolios. 
+### Technologies + Tools used 
 
-<br/>
+- [NuxtJs](https://nuxtjs.org/)
+- [Bootstrap-vue](https://bootstrap-vue.org/)
+- [Vue-ionicons](https://github.com/mazipan/vue-ionicons)
+- [Animate.css](https://animate.style/)
 
+![Built With NuxtJs](https://d33wubrfki0l68.cloudfront.net/932e75305b64df2a3226eb7307dcdc9e771448d8/37936/logos/built-with-nuxt.svg)
 
-![neva vue screenshot](https://res.cloudinary.com/dh3azc5sk/image/upload/v1632678783/templates/neva-vue/mockup-small_zgwpwl.png)
+### Build Setup
 
-``` Fully Responsive on Mobile  Devices ```
-<br/>
+```bash
+# install dependencies
+$ npm install
 
-#### The template has been crafted with love using Vuejs, Vuex, and Vuetify.  
+# serve with hot reload at localhost:3000
+$ npm run dev
 
-The template follows a component-based design so, is easy to customize for both developers and people not familiar with code.
+# build for production and launch server
+$ npm run build
+$ npm run start
 
-The template has been specially crafted to be simple to customize for people not familiar with code.
+# generate static project
+$ npm run generate
+```
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
+### Lincense
 
-The installation process is pretty simple and won't take more than 10 minutes. So let's begin.
+[MIT LICENSE](license.md)
 
+### Author
 
-Hav'nt installed the template yet,clone the  [repo](https://github.com/aabidsofi19/neva-portfolio-template)  now.
-
-
-The template has been licensed under the  MIT license. Which means you are not bound for any type of credit. But surely giving one in your footer will be helpful and appreciated a lot.
-
-
-
-
-Star the repo on Github and follow me. It means a lot ❤️.
-
-
-
-## License
-
-License MIT License Copyright (c) 2021 Aabid Sofi
-
-Coded by  Aabid Sofi
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Made with ❤ and ☕️ by [Asaolu Elijah](https://twitter.com/asaolu_elijah)
