@@ -11,8 +11,7 @@
 			</h2>
 
 			<div class="col-md-10 info">
-				A <b>Lightweigh</b> and <b>Stable</b> Discord Music Bot For Your Daily
-				Production.
+				
 				<br />
 				<b-button class="action-btn animate__animated animate__wobble animate__delay-4s animate__fast" to="/about">
 					Explore >

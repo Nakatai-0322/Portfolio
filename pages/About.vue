@@ -4,6 +4,9 @@
 			<div class="col-md-6">
 				<div class="about">
 					<h1 class="line-after">About Me</h1>
+					<img src="https://cdn.nakatai.ga/img/nakatai.webp" alt="Nakatai">
+					<img src="https://cdn.nakatai.ga/img/nakataimc.webp" alt="NakataiMC">
+
 					<h4 class="mt-4">Hi, there👋~</h4>
 					私は、"Nakatai"（なかたい）といいます。<br>
 					岐阜県出身で、現在居住しています。
