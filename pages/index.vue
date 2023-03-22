@@ -11,7 +11,7 @@
     <b-col md="8">
       <h2 class="intro animate__animated animate__fadeInUp animate__fast">
         Hi!,
-        <br />I<span>'m Itsuka</span>.
+        <br />I<span>'m Nakatai!!!</span>
       </h2>
 
       <div class="col-md-10 info">
