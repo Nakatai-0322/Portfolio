@@ -2,11 +2,10 @@
 	<b-container class="page animate__animated animate__fadeIn">
 		<b-row class="justify-content-center">
 			<b-col cols="md-6">
-				<h2>Get in touch 💌</h2>
+				<h2>Contact to me</h2>
 
 				<p class="text-left">
-					If you have any question or just want to say hi, i'll try my best to
-					get back to you.
+					My Discord ↓
 				</p>
 
 				<b-alert show variant="success" v-if="showAlert">
@@ -15,9 +14,9 @@
 					as i can.
 				</b-alert>
 
-				<b-button type="submit" variant="primary" href="https://discord.gg/h67nbaqdVm"
-					target="_blank">Discord</b-button>
-				</b-form>
+				<b-button type="submit" variant="primary" href="https://go.nakatai.ga/discord"
+					target="_blank">Discord
+				</b-button>
 			</b-col>
 		</b-row>
 	</b-container>

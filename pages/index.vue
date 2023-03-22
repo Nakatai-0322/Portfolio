@@ -27,6 +27,10 @@
 					<social-link :to="socialLinks.youtube">
 						<YoutubeIcon />
 					</social-link>
+
+					<social-link :to="socialLinks.twitter">
+						<TwitterIcon />
+					</social-link>
 				</div>
 			</div>
 		</b-col>
@@ -57,6 +61,7 @@ export default {
 			socialLinks: {
 				github: "https://go.nakatai.ga/github",
 				youtube: "https://go.nakatai.ga/youtube",
+				twitter: "https://go.nakatai.ga/twitter",
 			},
 		};
 	},

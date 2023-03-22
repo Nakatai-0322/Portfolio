@@ -30,8 +30,8 @@ export default {
 		link: [
 			{
 				rel: "icon",
-				type: "image/x-icon",
-				href: "https://images-ext-1.discordapp.net/external/LO-k41aNh_y2TB5K3a4Vh0g6QEE3GEB5TJb-1yXDVRM/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/477762276389027840/f1a56f884fe1edc46ae81d8711b33b57.png?width=636&height=636",
+				type: "image/webp",
+				href: "https://cdn.nakatai.ga/img/nakataimc.webp",
 			},
 			{
 				rel: "stylesheet",
