@@ -4,14 +4,14 @@
 			<div class="col-md-6">
 				<div class="about">
 					<h1 class="line-after">About Me</h1>
-					<h4 class="mt-4">Hey 👋</h4>
+					<h4 class="mt-4">Hi, there👋~</h4>
 					私は、"Nakatai"（なかたい）といいます。<br>
 					岐阜県出身で、現在居住しています。
 					<h2>コメント</h2>
 					<p></p>
 					<h2>BASE Data</h2>
 					<p>
-						誕生日: ████年03月22日<br>
+						誕生日: ****年03月22日<br>
 						活動日数: <span id="days"></span>日（<span id="years"></span>年）<br>
 						趣味: プログラミング, ゲーム<br>
 					</p>
