@@ -6306,17 +6306,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"itsuka-website@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "itsuka-website@workspace:."
-  dependencies:
-    bootstrap: ^5.2.3
-    bootstrap-vue: ^2.23.1
-    nuxt: ^2.14.0
-    vue-ionicons: ^3.0.5
-  languageName: unknown
-  linkType: soft
-
 "jest-worker@npm:^26.5.0":
   version: 26.6.2
   resolution: "jest-worker@npm:26.6.2"
@@ -7187,6 +7176,17 @@ __metadata:
   checksum: deac9f8d00eda7b2e5cd1b2549e26e10a0faa70adaa6fdadca701cc55f49ee9018e427f424bac0c790b7c7e2d3068db97f3093f1093975f2acb8f8818b936ed9
   languageName: node
   linkType: hard
+
+"nkt-pf-site@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "nkt-pf-site@workspace:."
+  dependencies:
+    bootstrap: ^5.2.3
+    bootstrap-vue: ^2.23.1
+    nuxt: ^2.14.0
+    vue-ionicons: ^3.0.5
+  languageName: unknown
+  linkType: soft
 
 "no-case@npm:^2.2.0":
   version: 2.3.2
