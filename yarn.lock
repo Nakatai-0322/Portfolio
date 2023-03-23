@@ -3068,7 +3068,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bootstrap-vue@npm:^2":
+"bootstrap-vue@npm:^2.23.1":
   version: 2.23.1
   resolution: "bootstrap-vue@npm:2.23.1"
   dependencies:
@@ -3081,7 +3081,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bootstrap@npm:^4, bootstrap@npm:^4.6.1":
+"bootstrap@npm:^4.6.1, bootstrap@npm:^4.6.2":
   version: 4.6.2
   resolution: "bootstrap@npm:4.6.2"
   peerDependencies:
@@ -7172,10 +7172,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nkt-pf-site@workspace:."
   dependencies:
-    bootstrap: ^4
-    bootstrap-vue: ^2
-    nuxt: ^2
-    vue-ionicons: ^3
+    bootstrap: ^4.6.2
+    bootstrap-vue: ^2.23.1
+    nuxt: ^2.16.3
+    vue-ionicons: ^3.0.5
   languageName: unknown
   linkType: soft
 
@@ -7390,7 +7390,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt@npm:^2":
+"nuxt@npm:^2.16.3":
   version: 2.16.3
   resolution: "nuxt@npm:2.16.3"
   dependencies:
@@ -10631,7 +10631,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-ionicons@npm:^3":
+"vue-ionicons@npm:^3.0.5":
   version: 3.0.5
   resolution: "vue-ionicons@npm:3.0.5"
   checksum: 85c0d29b6e76501394716266ad1f8dcfb370bc08a837f27f381aaee8a968fbe0799e42384d92d78075c2dc456522c532811df8e43ec1752493612ce416b54a8b

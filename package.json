@@ -9,11 +9,9 @@
 		"generate": "nuxt generate"
 	},
 	"dependencies": {
-		"bootstrap": "^4",
-		"bootstrap-vue": "^2",
-		"nuxt": "^2",
-		"vue-ionicons": "^3"
-	},
-	"keywords": [],
-	"description": ""
+		"bootstrap": "^4.6.2",
+		"bootstrap-vue": "^2.23.1",
+		"nuxt": "^2.16.3",
+		"vue-ionicons": "^3.0.5"
+	}
 }
