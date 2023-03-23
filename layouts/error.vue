@@ -1,7 +1,7 @@
 <template>
 	<div class="container">
 		<div v-if="error.statusCode === 404">
-			<img src="@/assets/404.png" alt="404 Illustration" />
+			<img src="https://http.cat/404" alt="404 Illustration" />
 			<h1 class="text-warning">Opps!, something went wrong</h1>
 			<p>We could not find that page you were looking for</p>
 		</div>
