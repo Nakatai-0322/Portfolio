@@ -21,7 +21,7 @@
 					<h2>WORKS</h2>
 					<p>
 						今の仕事: 非公開（非IT）
-						Web活動など: <a href="https://go.nakatai.ga/orgs">こちら</a>をご参照ください。
+						Web活動など: <a href="https://go.nakatai.xyz/orgs">こちら</a>をご参照ください。
 					</p>
 				</div>
 			</div>

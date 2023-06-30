@@ -58,9 +58,9 @@ export default {
 		return {
 			avatar: require("@/assets/avatar-1.webp"),
 			socialLinks: {
-				github: "https://go.nakatai.ga/github",
-				youtube: "https://go.nakatai.ga/youtube",
-				twitter: "https://go.nakatai.ga/twitter",
+				github: "https://go.nakatai.xyz/github",
+				youtube: "https://go.nakatai.xyz/youtube",
+				twitter: "https://go.nakatai.xyz/twitter",
 			},
 		};
 	},

@@ -14,7 +14,7 @@
 					as i can.
 				</b-alert>
 
-				<b-button type="submit" variant="primary" href="https://go.nakatai.ga/discord" target="_blank">Discord
+				<b-button type="submit" variant="primary" href="https://go.nakatai.xyz/discord" target="_blank">Discord
 				</b-button>
 			</b-col>
 		</b-row>
