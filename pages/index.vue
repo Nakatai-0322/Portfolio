@@ -1,7 +1,7 @@
 <template>
 	<b-row style="margin-left: 0; margin-right: 0">
 		<b-col md="4">
-			<b-img src="https://cdn.nakatai.ga/img/nakatai.webp" id="avatar-img" alt="Nakatai" />
+			<b-img src="https://cdn.nakatai.xyz/img/nakatai.webp" id="avatar-img" alt="Nakatai" />
 		</b-col>
 
 		<b-col md="8">

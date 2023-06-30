@@ -4,8 +4,8 @@
 			<div class="col-md-6">
 				<div class="about">
 					<h1 class="line-after">About Me</h1>
-					<img src="https://cdn.nakatai.ga/img/nakatai.webp" alt="Nakatai">
-					<img src="https://cdn.nakatai.ga/img/nakataimc.webp" alt="NakataiMC">
+					<img src="https://cdn.nakatai.xyz/img/nakatai.webp" alt="Nakatai">
+					<img src="https://cdn.nakatai.xyz/img/nakataimc.webp" alt="NakataiMC">
 
 					<h4 class="mt-4">Hi, there👋~</h4>
 					私は、"Nakatai"（なかたい）といいます。<br>
@@ -26,7 +26,7 @@
 				</div>
 			</div>
 			<div class="col-md-6">
-				<img src="https://cdn.nakatai.ga/img/header.webp" alt="Itsuka Wallpaper" class="abt-img" />
+				<img src="https://cdn.nakatai.xyz/img/header.webp" alt="Itsuka Wallpaper" class="abt-img" />
 			</div>
 		</div>
 	</div>

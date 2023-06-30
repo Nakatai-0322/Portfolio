@@ -31,7 +31,7 @@ export default {
 			{
 				rel: "icon",
 				type: "image/webp",
-				href: "https://cdn.nakatai.ga/img/nakataimc.webp",
+				href: "https://cdn.nakatai.xyz/img/nakataimc.webp",
 			},
 			{
 				rel: "stylesheet",
@@ -74,4 +74,3 @@ export default {
 	 */
 	build: {},
 };
-
